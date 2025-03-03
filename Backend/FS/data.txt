@@ -1,0 +1,5 @@
+
+ The addition result is: 12
+The substraction result is: 8
+The multiplication result is: 20
+The division result is: 5
