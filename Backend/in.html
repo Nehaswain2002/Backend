@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <iframe src="https://www.example.com" width="600" height="400"></iframe>
+  <img src="image.jpg" loading="lazy" alt="Lazy Loaded Image">
+  <details>
+    <summary>Click to expand</summary>
+    <p>This is the hidden content.</p>
+    <p>This is the hidden content.</p>
+    <p>This is the hidden content.</p><p>This is the hidden content.</p>
+  </details>
+  <button data-id="1234" onclick="showData(this)">Click Me</button>
+<script>
+  function showData(button) {
+    alert(button.dataset.id);
+  }
+</script>
+
+  <p>JavaScript is disabled in your browser.</p>
+
+  <object data="file.pdf"></object>
+  <iframe src="page.html"></iframe>
+  <html manifest="app.manifest">
+
+</body>
+</html>
